@@ -47,3 +47,10 @@ for(rit = v.rbegin(); rit != v.rend(); rit++){
     cout << *rit ;
 }
 ```
+
+## reverse 함수
+* algorithm 라이브러리에 존재
+
+```C
+reverse(begin, end);
+```
