@@ -54,3 +54,22 @@ for(rit = v.rbegin(); rit != v.rend(); rit++){
 ```C
 reverse(begin, end);
 ```
+
+## next_permutation 함수
+* 현재 원소 이후부터 순열을 구하므로, 모든 원소에 대한 순열을 구하고 싶다면 sort를 한번 해놓고 해야한다!
+  
+```C
+vector<int> v(n);
+
+for(int i =0; i< n; i++){
+    cin >> v[i];
+}
+
+do{
+    for(int i =0; i< n; i++){
+        cout << v[i] << ' ';
+    }
+    cout << '\n'
+}while(next_permutation(v.begin(), v.end()));
+
+```
