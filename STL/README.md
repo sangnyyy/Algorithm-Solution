@@ -73,3 +73,15 @@ do{
 }while(next_permutation(v.begin(), v.end()));
 
 ```
+
+## 2차원 벡터 초기화
+* 아래와 같이 초기화 하면 된다.
+
+```C
+vector<vector<int>> v(5, vector<int>(6));
+for (int i = 0; i < 5; ++i) {
+    for (int j = 0; j < 6; ++j) {
+        cin >> v[i][j];    
+    }
+}
+```
