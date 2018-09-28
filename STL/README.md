@@ -15,6 +15,12 @@
     ```C
     map<T, pair<T, T>> map;
     ```
+* count 함수
+     ```C
+    map<int, int> map;
+    map.count(1);   // key 1의 갯수를 반환
+    ```
+
 
 ## pair 함수
 * utility 라이브러리에 존재
@@ -85,3 +91,14 @@ for (int i = 0; i < 5; ++i) {
     }
 }
 ```
+
+## String 라이브러리
+
+```C
+#include <string>
+
+    int find(char c); // char에 해당하는 idx를 반환
+    string to_string(int num); // num -> string
+    int stoi(string str); // int -> string
+```
+
