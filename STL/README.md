@@ -1,5 +1,3 @@
-# C++ STL
-
 ## map 함수를 이용한 3차원 원소
 * map 라이브러리에 존재
 * map 또한 <T, T>의 형태를 가지고 있으며 <Key, Value>라고 생각하면 된다.
@@ -97,8 +95,10 @@ for (int i = 0; i < 5; ++i) {
 ```C
 #include <string>
 
-    int find(char c); // char에 해당하는 idx를 반환
-    string to_string(int num); // num -> string
-    int stoi(string str); // int -> string
+int find(char c); // char에 해당하는 idx를 반환
+
+string to_string(int num); // num -> string
+
+int stoi(string str); // int -> string
 ```
 
