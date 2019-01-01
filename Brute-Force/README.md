@@ -45,5 +45,6 @@ sort(vv.begin(), vv.end());
 resize() 함수와 unique() 함수를 이용하여 중복 값을 제거한다.
 
 ```C
+//이렇게 쓰면 중복값을 제거함
 vv.resize(unique(vv.begin(), vv.end()) - v.begin());
 ```
