@@ -1,4 +1,4 @@
-# Dynamic Programming
+# Brute Force
 
 ## 15649 - N과 M (1)
 
