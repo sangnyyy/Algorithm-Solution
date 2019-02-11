@@ -102,3 +102,8 @@ string to_string(int num); // num -> string
 int stoi(string str); // int -> string
 ```
 
+## 2차원 벡터 쉽게 초기화하기
+
+```C
+vector<vector<int>> land(size, vector<int>(size));
+```
