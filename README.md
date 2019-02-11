@@ -1,6 +1,6 @@
-# BOJ-Algorithm-Solution
+# Algorithm-Solution
 
-## 문제 풀이 목록
+## BOJ
 
 ### Dynamic Programming
 * 1149 - RGB거리
